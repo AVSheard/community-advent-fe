@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
-import Map from "./components/Map";
+import HousesMap from "./components/HousesMap";
 
 function App() {
 	return (
