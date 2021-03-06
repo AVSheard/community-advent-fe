@@ -5,6 +5,29 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 L.Icon.Default.imagePath = "https://unpkg.com/leaflet@1.5.0/dist/images/";
 
 class HousesMap extends Component {
+	state = {
+		houses: [
+			{
+				house_id: 1,
+				houseName: "'Prospecton, Tunstead Lane'",
+				day: 1,
+				houseLongLoc: 53.5386,
+				houseLatLoc: -1.99691,
+				calendar_id: 1,
+				housePicture: null,
+			},
+			{
+				house_id: 2,
+				houseName: "'Prospecton Farm, Tunstead Lane'",
+				day: 24,
+				houseLongLoc: 53.5383,
+				houseLatLoc: -1.99775,
+				calendar_id: 1,
+				housePicture: null,
+			},
+		],
+	};
+
 	render() {
 		return (
 			<div className="mapContainer">
