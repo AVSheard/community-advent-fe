@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { Component } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
@@ -24,6 +25,16 @@ class HousesMap extends Component {
 				housePicture: null,
 			},
 		],
+	};
+
+	retrieveHouses = (id) => {
+		axios
+			.get(
+				`https://community-advent2.herokuapp.com/api/houses/?calendar_id=${id}`
+			)
+			.then((res) => {
+				this.setState({ houses: res.data.houses });
+			});
 	};
 
 	render() {
