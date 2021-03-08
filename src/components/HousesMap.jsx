@@ -62,9 +62,7 @@ class HousesMap extends Component {
 								this.state.activeHouse[0].houseLatLoc,
 							]}
 							onClose={() => this.setState({ activeHouse: null })}>
-							<div>
-								<h2>{this.state.activeHouse[0].day}</h2>
-							</div>
+							<h2>{`Day ${this.state.activeHouse[0].day}, ${this.state.activeHouse[0].houseName}`}</h2>
 						</Popup>
 					)}
 				</MapContainer>
