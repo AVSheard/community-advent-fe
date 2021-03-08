@@ -27,6 +27,18 @@ class HousesMap extends Component {
 		],
 	};
 
+	handleError = (err) => {
+		this.setState({
+			msg: err.response.data.msg,
+			status: err.response.data.status,
+			loading: false,
+		});
+	};
+
+	componentDidMount = () => {
+		this.retrieveHouses(1);
+	};
+
 	retrieveHouses = (id) => {
 		axios
 			.get(
@@ -34,6 +46,9 @@ class HousesMap extends Component {
 			)
 			.then((res) => {
 				this.setState({ houses: res.data.houses });
+			})
+			.catch((err) => {
+				this.handleError(err);
 			});
 	};
 
