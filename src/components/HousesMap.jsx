@@ -41,6 +41,12 @@ class HousesMap extends Component {
 						attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 						url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 					/>
+					{this.state.houses.map((house) => (
+						<Marker
+							key={house.house_id}
+							position={[house.houseLongLoc, house.houseLatLoc]}
+						/>
+					))}
 				</MapContainer>
 			</div>
 		);
