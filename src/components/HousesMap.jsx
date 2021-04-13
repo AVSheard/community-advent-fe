@@ -30,17 +30,21 @@ class HousesMap extends Component {
 						url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 					/>
 
-					{this.state.houses.map((house) => (
-						<Marker
-							key={house.house_id}
-							position={[house.houseLongLoc, house.houseLatLoc]}
-							eventHandlers={{
-								click: () => {
-									this.setState({ activeHouse: [house] });
-								},
-							}}
-						/>
-					))}
+					{this.state.houses.map((house) => {
+						return (
+							new Date().getDate() >= house.day && (
+								<Marker
+									key={house.house_id}
+									position={[house.houseLongLoc, house.houseLatLoc]}
+									eventHandlers={{
+										click: () => {
+											this.setState({ activeHouse: [house] });
+										},
+									}}
+								/>
+							)
+						);
+					})}
 
 					{this.state.activeHouse && (
 						<Popup
