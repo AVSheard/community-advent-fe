@@ -1,29 +1,11 @@
 import React, { Component } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import houses from "../data/Uppermill";
 
 class HousesMap extends Component {
 	state = {
 		activeHouse: null,
-		houses: [
-			{
-				house_id: 1,
-				houseName: "'Prospecton, Tunstead Lane'",
-				day: 1,
-				houseLongLoc: 53.5386,
-				houseLatLoc: -1.99691,
-				calendar_id: 1,
-				housePicture: null,
-			},
-			{
-				house_id: 2,
-				houseName: "'Prospecton Farm, Tunstead Lane'",
-				day: 24,
-				houseLongLoc: 53.5383,
-				houseLatLoc: -1.99775,
-				calendar_id: 1,
-				housePicture: null,
-			},
-		],
+		houses: houses,
 	};
 
 	handleError = (err) => {
