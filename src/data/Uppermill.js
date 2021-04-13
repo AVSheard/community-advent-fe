@@ -1,4 +1,4 @@
-module.exports = [
+const houses = [
 	{
 		houseName: "Methodist centre",
 		day: 1,
@@ -224,3 +224,4 @@ module.exports = [
 		calendar_id: "3",
 	},
 ];
+module.exports = houses;
