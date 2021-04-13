@@ -35,23 +35,6 @@ class HousesMap extends Component {
 		});
 	};
 
-	componentDidMount = () => {
-		this.retrieveHouses(1);
-	};
-
-	retrieveHouses = (id) => {
-		axios
-			.get(
-				`https://community-advent2.herokuapp.com/api/houses/?calendar_id=${id}`
-			)
-			.then((res) => {
-				this.setState({ houses: res.data.houses });
-			})
-			.catch((err) => {
-				this.handleError(err);
-			});
-	};
-
 	render() {
 		return (
 			<div className="mapContainer">
