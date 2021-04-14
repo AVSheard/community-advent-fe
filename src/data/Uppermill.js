@@ -5,6 +5,7 @@ const houses = [
 		houseLongLoc: 53.5488627,
 		houseLatLoc: -2.0042356,
 		calendar_id: "3",
+		house_id: 101,
 	},
 	{
 		houseName: "Parish Centre on Lee St",
@@ -12,6 +13,7 @@ const houses = [
 		houseLongLoc: 53.5476133,
 		houseLatLoc: -2.0034323,
 		calendar_id: "3",
+		house_id: 102,
 	},
 	{
 		houseName: "54 Grove Road",
@@ -19,6 +21,7 @@ const houses = [
 		houseLongLoc: 53.5446685,
 		houseLatLoc: -2.0045922,
 		calendar_id: "3",
+		house_id: 103,
 	},
 	{
 		houseName: "Saddleworth Museum",
@@ -26,6 +29,7 @@ const houses = [
 		houseLongLoc: 53.5465873,
 		houseLatLoc: -2.007603,
 		calendar_id: "3",
+		house_id: 104,
 	},
 	{
 		houseName: "46 Church Road",
@@ -33,6 +37,7 @@ const houses = [
 		houseLongLoc: 53.5498637,
 		houseLatLoc: -1.9995113,
 		calendar_id: "3",
+		house_id: 105,
 	},
 	{
 		houseName: "47 Wellmeadow Lane",
@@ -40,6 +45,7 @@ const houses = [
 		houseLongLoc: 53.5505675,
 		houseLatLoc: -2.0003626,
 		calendar_id: "3",
+		house_id: 106,
 	},
 	{
 		houseName: "7 Sherbrooke Avenue",
@@ -47,6 +53,7 @@ const houses = [
 		houseLongLoc: 53.5509642,
 		houseLatLoc: -2.0019281,
 		calendar_id: "3",
+		house_id: 107,
 	},
 	{
 		houseName: "6 Court Street",
@@ -54,6 +61,7 @@ const houses = [
 		houseLongLoc: 53.5481316,
 		houseLatLoc: -2.0058744,
 		calendar_id: "3",
+		house_id: 108,
 	},
 	{
 		houseName: "Oliviccio",
@@ -61,6 +69,7 @@ const houses = [
 		houseLongLoc: 53.5496106,
 		houseLatLoc: -2.0052993,
 		calendar_id: "3",
+		house_id: 109,
 	},
 	{
 		houseName: "9 Rush Hill Terrace",
@@ -68,6 +77,7 @@ const houses = [
 		houseLongLoc: 53.5451579,
 		houseLatLoc: -2.0079506,
 		calendar_id: "3",
+		house_id: 110,
 	},
 	{
 		houseName: "65 Church Road",
@@ -75,6 +85,7 @@ const houses = [
 		houseLongLoc: 53.549661,
 		houseLatLoc: -2.0014744,
 		calendar_id: "3",
+		house_id: 111,
 	},
 	{
 		houseName: "Upstairs Methodist centre",
@@ -82,6 +93,7 @@ const houses = [
 		houseLongLoc: 53.5488627,
 		houseLatLoc: -2.0042356,
 		calendar_id: "3",
+		house_id: 112,
 	},
 	{
 		houseName: "St Chad’s Primary School",
@@ -89,6 +101,7 @@ const houses = [
 		houseLongLoc: 53.552029,
 		houseLatLoc: -1.9988647,
 		calendar_id: "3",
+		house_id: 113,
 	},
 	{
 		houseName: "1 Sherbrooke Avenue",
@@ -96,6 +109,7 @@ const houses = [
 		houseLongLoc: 53.5503649,
 		houseLatLoc: -2.0016875,
 		calendar_id: "3",
+		house_id: 114,
 	},
 	{
 		houseName: "11 Village Green (viewed from New Street)",
@@ -103,6 +117,7 @@ const houses = [
 		houseLongLoc: 53.5484567,
 		houseLatLoc: -2.0060495,
 		calendar_id: "3",
+		house_id: 115,
 	},
 	{
 		houseName: "142 High Street",
@@ -110,6 +125,7 @@ const houses = [
 		houseLongLoc: 53.55169,
 		houseLatLoc: -2.0077,
 		calendar_id: "3",
+		house_id: 116,
 	},
 	{
 		houseName: "38-40 Wool Road, Dobcross",
@@ -117,6 +133,7 @@ const houses = [
 		houseLongLoc: 53.5570135,
 		houseLatLoc: -2.0082995,
 		calendar_id: "3",
+		house_id: 117,
 	},
 	{
 		houseName: "18 Grove Road",
@@ -124,6 +141,7 @@ const houses = [
 		houseLongLoc: 53.5459503,
 		houseLatLoc: -2.004033,
 		calendar_id: "3",
+		house_id: 118,
 	},
 	{
 		houseName: "18 Grove Road",
@@ -131,6 +149,7 @@ const houses = [
 		houseLongLoc: 53.5459503,
 		houseLatLoc: -2.004033,
 		calendar_id: "3",
+		house_id: 119,
 	},
 	{
 		houseName: "27 Wellmeadow Lane",
@@ -138,6 +157,7 @@ const houses = [
 		houseLongLoc: 53.5500857,
 		houseLatLoc: -2.0019925,
 		calendar_id: "3",
+		house_id: 120,
 	},
 	{
 		houseName: "6 Grove Road",
@@ -145,6 +165,7 @@ const houses = [
 		houseLongLoc: 53.5463486,
 		houseLatLoc: -2.003771,
 		calendar_id: "3",
+		house_id: 121,
 	},
 	{
 		houseName: "1 Abels Lane",
@@ -152,6 +173,7 @@ const houses = [
 		houseLongLoc: 53.5493107,
 		houseLatLoc: -1.9982165,
 		calendar_id: "3",
+		house_id: 122,
 	},
 	{
 		houseName: "30 Church Road",
@@ -159,6 +181,7 @@ const houses = [
 		houseLongLoc: 53.549606,
 		houseLatLoc: -2.000936,
 		calendar_id: "3",
+		house_id: 123,
 	},
 	{
 		houseName: "12 Court Street",
@@ -166,6 +189,7 @@ const houses = [
 		houseLongLoc: 53.5476443,
 		houseLatLoc: -2.0077904,
 		calendar_id: "3",
+		house_id: 124,
 	},
 	{
 		houseName: "27 Sherbrooke Avenue",
@@ -173,6 +197,7 @@ const houses = [
 		houseLongLoc: 53.5517753,
 		houseLatLoc: -2.0023461,
 		calendar_id: "3",
+		house_id: 125,
 	},
 	{
 		houseName: "3 The Shaws",
@@ -180,6 +205,7 @@ const houses = [
 		houseLongLoc: 53.5457228,
 		houseLatLoc: -2.0000099,
 		calendar_id: "3",
+		house_id: 126,
 	},
 	{
 		houseName: "34 Wellington Road",
@@ -187,6 +213,7 @@ const houses = [
 		houseLongLoc: 53.5398524,
 		houseLatLoc: -2.0108506,
 		calendar_id: "3",
+		house_id: 127,
 	},
 	{
 		houseName: "Field View, Station Road",
@@ -194,6 +221,7 @@ const houses = [
 		houseLongLoc: 53.547477,
 		houseLatLoc: -2.0054457,
 		calendar_id: "3",
+		house_id: 128,
 	},
 	{
 		houseName: "2 Saddleworth Fold",
@@ -201,6 +229,7 @@ const houses = [
 		houseLongLoc: 53.5508477,
 		houseLatLoc: -1.9985333,
 		calendar_id: "3",
+		house_id: 129,
 	},
 	{
 		houseName: "85 Church Road",
@@ -208,6 +237,7 @@ const houses = [
 		houseLongLoc: 53.5498984,
 		houseLatLoc: -1.9998039,
 		calendar_id: "3",
+		house_id: 130,
 	},
 	{
 		houseName: "25 Springmeadow Lane",
@@ -215,6 +245,7 @@ const houses = [
 		houseLongLoc: 53.548151,
 		houseLatLoc: -1.9998037,
 		calendar_id: "3",
+		house_id: 131,
 	},
 	{
 		houseName: "Ryefield Lodge, High Street",
@@ -222,6 +253,7 @@ const houses = [
 		houseLongLoc: 53.5524192,
 		houseLatLoc: -2.0061312,
 		calendar_id: "3",
+		house_id: 132,
 	},
 ];
 module.exports = houses;
