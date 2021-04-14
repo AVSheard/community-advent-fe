@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { Icon } from "leaflet";
 import houses from "../data/Uppermill";
 
 class HousesMap extends Component {
@@ -21,8 +22,8 @@ class HousesMap extends Component {
 			<div className="mapContainer">
 				<MapContainer
 					center={{
-						lat: 53.5382321,
-						lng: -1.9920182,
+						lat: 53.5488627,
+						lng: -2.0042356,
 					}}
 					zoom={15}>
 					<TileLayer
