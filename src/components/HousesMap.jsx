@@ -4,7 +4,7 @@ import { Icon } from "leaflet";
 import houses from "../data/Uppermill";
 
 const numOne = new Icon({
-	iconUrl: "/onev2.png",
+	iconUrl: "/numbers/num1.png",
 	iconSize: [25, 25],
 });
 
