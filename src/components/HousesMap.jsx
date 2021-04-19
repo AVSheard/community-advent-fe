@@ -3,6 +3,11 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { Icon } from "leaflet";
 import houses from "../data/Uppermill";
 
+const numOne = new Icon({
+	iconUrl: "/onev2.png",
+	iconSize: [25, 25],
+});
+
 class HousesMap extends Component {
 	state = {
 		activeHouse: null,
@@ -42,6 +47,7 @@ class HousesMap extends Component {
 											this.setState({ activeHouse: [house] });
 										},
 									}}
+									icon={numOne}
 								/>
 							)
 						);
