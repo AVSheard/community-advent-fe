@@ -7,6 +7,19 @@ class HousesMap extends Component {
 	state = {
 		activeHouse: null,
 		houses: houses,
+		userLoc: null,
+		userLoaded: false,
+	};
+
+	componentDidMount = () => {
+		const success = (pos) => {
+			this.setState({
+				userLoc: [pos.coords.latitude, pos.coords.longitude],
+				userLoaded: true,
+			});
+		};
+
+		navigator.geolocation.getCurrentPosition(success);
 	};
 
 	render() {
@@ -22,6 +35,14 @@ class HousesMap extends Component {
 						attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 						url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 					/>
+
+					{this.state.userLoaded && (
+						<Marker
+							position={[
+								this.state.userLoc[0],
+								this.state.userLoc[1],
+							]}></Marker>
+					)}
 
 					{this.state.houses.map((house) => {
 						return (
