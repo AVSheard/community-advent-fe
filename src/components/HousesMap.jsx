@@ -38,10 +38,13 @@ class HousesMap extends Component {
 
 					{this.state.userLoaded && (
 						<Marker
-							position={[
-								this.state.userLoc[0],
-								this.state.userLoc[1],
-							]}></Marker>
+							position={[this.state.userLoc[0], this.state.userLoc[1]]}
+							icon={
+								new Icon({
+									iconUrl: `/avatar.png`,
+									iconSize: [35, 35],
+								})
+							}></Marker>
 					)}
 
 					{this.state.houses.map((house) => {
