@@ -18,8 +18,8 @@ const houses = [
 	{
 		houseName: "1 Sherbrooke Avenue",
 		day: 3,
-		houseLongLoc: 53.5503748,
-		houseLatLoc: -1.9993425,
+		houseLongLoc: 53.5504443,
+		houseLatLoc: -1.9996534,
 		calendar_id: "3",
 		house_id: 104,
 	},
