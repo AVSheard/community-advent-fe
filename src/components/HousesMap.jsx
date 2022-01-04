@@ -49,7 +49,7 @@ class HousesMap extends Component {
 
 					{this.state.houses.map((house) => {
 						return (
-							new Date().getDate() >= house.day && (
+							(new Date().getDate() >= house.day || new Date().getMonth() == 0) && (
 								<Marker
 									key={house.house_id}
 									position={[house.houseLongLoc, house.houseLatLoc]}
